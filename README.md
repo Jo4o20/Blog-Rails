@@ -15,8 +15,19 @@ Este README documenta os passos necessários para configurar e executar a aplica
 
 ## Etapas de Configuração
 
+### Instalar Ruby
+(https://rubyinstaller.org/)
+
+### Instalar Rails
+```bash
+gem install rails
+```
+
 ### 1. Dependências do Sistema
 Certifique-se de que todas as dependências do sistema necessárias estão instaladas.
+```bash
+bundle install
+```
 
 ### 2. Configuração
 Configure os arquivos necessários para rodar o projeto, como `.env` ou `database.yml`.
