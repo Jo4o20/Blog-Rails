@@ -84,7 +84,9 @@ docker run --name container -d -p 3000:3000 blog-rails:1
 Entre no terminal do container Rails e execute os comandos para criar o banco de dados:
 
 ```bash
-docker exec -it <container> bash
+docker exec -it container bash
+```
+```bash
 rails db:create
 rails db:migrate
 ```
