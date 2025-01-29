@@ -14,7 +14,8 @@ Este README documenta os passos necessários para configurar e executar a aplica
 
 ## Requisitos
 - **Ruby Version:** 3.3.7  
-- **Rails Version:** 8.0.1  
+- **Rails Version:** 8.0.1
+- **Banco de Dados:** SQLite (padrão na criação do projeto Rails)
 
 ## Etapas de Configuração
 
@@ -86,6 +87,7 @@ Entre no terminal do container Rails e execute os comandos para criar o banco de
 ```bash
 docker exec -it container bash
 ```
+Ao mudar para o terminal interno do docker
 ```bash
 rails db:create
 rails db:migrate
