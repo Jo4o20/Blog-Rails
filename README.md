@@ -1,5 +1,7 @@
 # README
 
+Esse é um projeto de um blog, em que é possível fazer publicações, e comentários em cada publicação, além disso, o blog se atualiza automaticamente, então se existi várias publicações ou comentários, todos seriam dinamicamente exibidos para todos.
+
 ## Nome
 João Gabriel de Lima Castro
 
